@@ -2,7 +2,7 @@
 
 ## What do you think is the type of each of the following fields? 
 * private int count; 
-* This field is of the int data type.
+* This field is of the `int` data type.
 * private Student representative; 
 * This field has the `Student` data type, which is also considered a class.
 * private Server host; 

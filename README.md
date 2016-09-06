@@ -4,7 +4,9 @@
 * private int count; 
 * This field is of the int data type.
 * private Student representative; 
+* This field has the `Student` data type, which is also considered a class.
 * private Server host; 
+* * This field has the `Server` data type, which is also considered a class.
 
 ## What are the names of the following fields? 
 * private boolean alive;

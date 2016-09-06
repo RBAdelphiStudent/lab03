@@ -2,15 +2,20 @@
 
 ## What do you think is the type of each of the following fields? 
 * private int count; 
+* This field is of the int data type.
 * private Student representative; 
 * private Server host; 
 
 ## What are the names of the following fields? 
 * private boolean alive;
+* This field is named alive.
 * private Person tutor; 
+* This field is named tutor.
 * private Game game; 
+* This field is named game.
 
 ## From what you know about the naming conventions for classes, which of the type names in the above questions would you say are class names? 
+* Based off of the convention that class names are capitalized in code, the data type names Student, Server, Person, and Game all represent classes.
 
 ## In the following field declaration from the `TicketMachine` class  
 ```
@@ -27,10 +32,12 @@ does it matter which order the three words appear in? Edit the TicketMachine cla
 ```
 public Student(String name)
 ```
+The constructor shown above belongs to the Student class.
 ## How many parameters does the following constructor have, and what are their types?
 ```
 public Book(String title, double price)
 ```
+* The following constructor has two parameters, a string (title) and a double (price).
 ## Can you guess what types some of the `Book` class’s fields might be, from the parameters in its constructor? Can you assume anything about the names of its fields?
 
 

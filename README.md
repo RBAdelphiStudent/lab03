@@ -47,11 +47,11 @@ public Book(String title, double price)
 ## Can you guess what types some of the `Book` class’s fields might be, from the parameters in its constructor? Can you assume anything about the names of its fields? 
 *Based off its constructor, the class `Book` has at least two fields of the types `String` and `double`. The `String` is named `title`, while the `double` is named `price`.
 
-
 ## Suppose that the class `Pet` has a field called `name` that is of the type `String`. Write an assignment statement in the body of the following constructor so that the `name` field will be initialized with the value of the constructor’s parameter.
 ```
 public Pet(String petsName)
 {
+private int name=petsName;
 }
 ```
 ## The following object creation will result in the constructor of the `Date` class being called. Can you write the constructor’s header?

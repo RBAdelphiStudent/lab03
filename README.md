@@ -47,7 +47,7 @@ public Book(String title, double price)
 * The following constructor has two parameters, a string (title) and a double (price).
 
 ## Can you guess what types some of the `Book` class’s fields might be, from the parameters in its constructor? Can you assume anything about the names of its fields? 
-*Based off its constructor, the class `Book` has at least two fields of the types `String` and `double`. The `String` is named `title`, while the `double` is named `price`.
+* Based off its constructor, the class `Book` has at least two fields of the types `String` and `double`. The `String` is named `title`, while the `double` is named `price`.
 
 ## Suppose that the class `Pet` has a field called `name` that is of the type `String`. Write an assignment statement in the body of the following constructor so that the `name` field will be initialized with the value of the constructor’s parameter.
 ```

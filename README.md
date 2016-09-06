@@ -22,23 +22,30 @@
 private int price;
 ```
 does it matter which order the three words appear in? Edit the TicketMachine class to try different orderings. After each change, close the editor. Does the appearance of the class diagram after each change give you a clue as to whether or not other orderings are possible? Check by pressing the Compile button to see if there is an error message. Make sure that you reinstate the original version after your experiments! 
-
+* The order of the three words matters; if the words are not entered in the order above, the class diagram shows that a parsing error occurs when trying to compile the file. The order of the declaration must be the field state, the field data type, then the field name.
 
 ## Is it always necessary to have a semicolon at the end of a field declaration? Once again, experiment via the editor. The rule you will learn here is an important one, so be sure to remember it. 
+* It is always necessary to have a semicolon at the end of a field declaration; the computer is unable to parse the declaration if the semicolon is not used to end the declaration.
 
 ## Write in full the declaration for a field of type `int` whose name is `status`.
+```
+private int status;
+```
 
 ## To what class does the following constructor belong?
 ```
 public Student(String name)
 ```
 The constructor shown above belongs to the Student class.
+
 ## How many parameters does the following constructor have, and what are their types?
 ```
 public Book(String title, double price)
 ```
 * The following constructor has two parameters, a string (title) and a double (price).
-## Can you guess what types some of the `Book` class’s fields might be, from the parameters in its constructor? Can you assume anything about the names of its fields?
+
+## Can you guess what types some of the `Book` class’s fields might be, from the parameters in its constructor? Can you assume anything about the names of its fields? 
+*Based off its constructor, the class `Book` has at least two fields of the types `String` and `double`. The `String` is named `title`, while the `double` is named `price`.
 
 
 ## Suppose that the class `Pet` has a field called `name` that is of the type `String`. Write an assignment statement in the body of the following constructor so that the `name` field will be initialized with the value of the constructor’s parameter.

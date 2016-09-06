@@ -10,7 +10,7 @@
 * private Person tutor; 
 * private Game game; 
 
-## From what you know about the naming conventions for classes, which of the type names in teh above questions would you say are class names? 
+## From what you know about the naming conventions for classes, which of the type names in the above questions would you say are class names? 
 
 ## In the following field declaration from the `TicketMachine` class  
 ```
@@ -44,4 +44,5 @@ public Pet(String petsName)
 ```
 new Date("March", 23, 1861)
 ```
+* public Date(String month, int day, int year)
 Try to give meaningful names to the parameters.
